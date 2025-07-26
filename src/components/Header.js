@@ -34,6 +34,22 @@ export default function Header() {
           </li>
           <li>
             <Link 
+              href="/produtos"
+              className={pathname === '/produtos' ? styles.active : ''}
+            >
+              Produtos
+            </Link>
+          </li>
+          <li>
+            <Link 
+              href="/parceiros"
+              className={pathname === '/parceiros' ? styles.active : ''}
+            >
+              Parceiros
+            </Link>
+          </li>
+          <li>
+            <Link 
               href="/sobre"
               className={pathname === '/sobre' ? styles.active : ''}
             >
